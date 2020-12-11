@@ -466,19 +466,19 @@ if ($segment[2] == 'mathteacher') {
                                     <ul style="padding-left: 26px">
                                         <li class="step-show" data-name="onl-step11" data-type="student">
                                             <span class="step">Step 1</span>
-                                            <span class="step-name">Get enough points to pay for a tutor you select.</span>
+                                            <span class="step-name">Buy points to schedule a tutor of your choice.</span>
                                         </li>
                                         <li class="step-show" data-name="onl-step22" data-type="student">
                                              <span class="step">Step 2</span>
-                                            <span class="step-name">Work with a calendar to schedule a tutor.</span>
+                                            <span class="step-name">Use the ‘Calendar’ to schedule a tutor. </span>
                                         </li>
                                         <li class="step-show" data-name="onl-step33" data-type="student">
                                              <span class="step">Step 3</span>
-                                            <span class="step-name">Selecting the right tutor.</span>
+                                            <span class="step-name">Selecting the right tutor for you </span>
                                         </li>
                                         <li class="step-show" data-name="onl-step44" data-type="student">
                                              <span class="step">Step 4</span>
-                                            <span class="step-name">Tutor shows up online at the time you scheduled. </span>
+                                            <span class="step-name">Get tutored at the date and time you select </span>
                                         </li>
                                         
                                     </ul>
@@ -486,7 +486,7 @@ if ($segment[2] == 'mathteacher') {
                                 <div id="onl-step11" class="hidden">
                                     <div style="  padding-top: 20px;">
                                         <span class="step-z">step 1</span>
-                                        <span class="step-n">Get enough points to pay for a tutor you select.</span>
+                                        <span class="step-n">Buy points to schedule a tutor of your choice.</span>
                                         <span class="step-close" data-type="step-st" data-name="onl-step11"><img style="height: 12px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_step_close.png"></span>
                                     </div>
                                     <div style="padding-top: 20px">
@@ -494,15 +494,15 @@ if ($segment[2] == 'mathteacher') {
                                         <ul class="list-of-step">
                                             <li>
                                                 <img style="width: 7px;" src="<?php echo get_template_directory_uri(); ?>/library/images/03_Icon_Sub-menu.png">
-                                                <span>You will spend points for schedulings</span>
+                                                <span>Use points to schedule a tutor </span>
                                             </li>
                                             <li>
                                                 <img style="width: 7px;" src="<?php echo get_template_directory_uri(); ?>/library/images/03_Icon_Sub-menu.png">
-                                                <span>1 point = $ 1 dollar</span>
+                                                <span>1 point = $ 1</span>
                                             </li>
                                             <li>
                                                 <img style="width: 7px;" src="<?php echo get_template_directory_uri(); ?>/library/images/03_Icon_Sub-menu.png">
-                                                <span>When short on points, you can recharge them </span>
+                                                <span>Purchase additional points anytime  </span>
                                             </li>
                                             <li style="padding-top: 6px">
                                                 <span class="let-start-st">LET'S START</span>
@@ -514,7 +514,7 @@ if ($segment[2] == 'mathteacher') {
                                 <div id="onl-step22" class="hidden">
                                     <div style="  padding-top: 20px;">
                                         <span class="step-z">step 2</span>
-                                        <span class="step-n">Works with a calendar to schedule a tutor.</span>
+                                        <span class="step-n">Use the ‘Calendar’ to schedule a tutor. </span>
                                         <span class="step-close" data-type="step-st" data-name="onl-step22"><img style="height: 12px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_step_close.png"></span>
                                         
                                     </div>
@@ -527,11 +527,11 @@ if ($segment[2] == 'mathteacher') {
                                             </li>
                                             <li>
                                                 <img style="width: 7px;" src="<?php echo get_template_directory_uri(); ?>/library/images/03_Icon_Sub-menu.png">
-                                                <span>When date is selected from calendar, it will direct to schedule page</span>
+                                                <span>Schedule a tutoring session directly from the Calendar </span>
                                             </li>
                                             <li>
                                                 <img style="width: 7px;" src="<?php echo get_template_directory_uri(); ?>/library/images/03_Icon_Sub-menu.png">
-                                                <span>Check tutor’s calendar for availability </span>
+                                                <span>Check tutor’s availability on the Calendar </span>
                                             </li>
                                             <li style="padding-top: 6px">
                                                 <span class="let-start-st">LET'S START</span>
@@ -543,7 +543,7 @@ if ($segment[2] == 'mathteacher') {
                                 <div id="onl-step33" class="hidden">
                                     <div style="  padding-top: 20px;">
                                         <span class="step-z">step 3</span>
-                                        <span class="step-n">Selecting the right tutor.</span>
+                                        <span class="step-n">Selecting the right tutor for you.</span>
                                         <span class="step-close" data-type="step-st" data-name="onl-step33"><img style="height: 12px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_step_close.png"></span>
                                         
                                     </div>
@@ -552,15 +552,15 @@ if ($segment[2] == 'mathteacher') {
                                         <ul class="list-of-step">
                                             <li>
                                                 <img style="width: 7px;" src="<?php echo get_template_directory_uri(); ?>/library/images/03_Icon_Sub-menu.png">
-                                                <span>Select suitable tutor from available list or searched list</span>
+                                                <span>Choose the best tutor for you from the list </span>
                                             </li>
                                             <li>
                                                 <img style="width: 7px;" src="<?php echo get_template_directory_uri(); ?>/library/images/03_Icon_Sub-menu.png">
-                                                <span>Check tutor’s resume from their detail page</span>
+                                                <span>Check tutor’s bio on their personal page </span>
                                             </li>
                                             <li>
                                                 <img style="width: 7px;" src="<?php echo get_template_directory_uri(); ?>/library/images/03_Icon_Sub-menu.png">
-                                                <span>Review is also a good place to check the suitability </span>
+                                                <span>Check student reviews of the tutors   </span>
                                             </li>
                                             <li style="padding-top: 6px">
                                                 <span class="let-start-st">LET'S START</span>
@@ -572,7 +572,7 @@ if ($segment[2] == 'mathteacher') {
                                 <div id="onl-step44" class="hidden">
                                     <div style="  padding-top: 20px;">
                                         <span class="step-z">step 4</span>
-                                        <span class="step-n">Tutor shows up online at the time you scheduled.</span>
+                                        <span class="step-n">Get tutored at the date and time you select.</span>
                                         <span class="step-close" data-type="step-st" data-name="onl-step44"><img style="height: 12px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_step_close.png"></span>
                                         
                                     </div>
@@ -581,11 +581,11 @@ if ($segment[2] == 'mathteacher') {
                                         <ul class="list-of-step">
                                             <li>
                                                 <img style="width: 7px;" src="<?php echo get_template_directory_uri(); ?>/library/images/03_Icon_Sub-menu.png">
-                                                <span>When tutor finalize the schedule, both tutor and student will meet through online teaching platform</span>
+                                                <span>When tutor confirms your selected date & time, start tutoring session through this secure platform </span>
                                             </li>
                                             <li>
                                                 <img style="width: 7px;" src="<?php echo get_template_directory_uri(); ?>/library/images/03_Icon_Sub-menu.png">
-                                                <span>All schedule status can be checked from “Schedule detailed page” </span>
+                                                <span>Check your scheduled tutoring sessions on “Schedule Detail” page</span>
                                             </li>
                                             
                                             <li style="padding-top: 6px">
@@ -617,19 +617,19 @@ if ($segment[2] == 'mathteacher') {
                                     <ul style="padding-left: 26px">
                                         <li class="step-show" data-name="create-step11" data-type="student">
                                             <span class="step">Step 1</span>
-                                            <span class="step-name">Check out free online courses for English and Math. You get a Vocabulary Builder tool free! </span>
+                                            <span class="step-name">Check out the free online courses for English and Math. Get the Vocabulary Builder tool free! </span>
                                         </li>
                                         <li class="step-show" data-name="create-step22" data-type="student">
                                              <span class="step">Step 2</span>
-                                            <span class="step-name">Check Math self-study (Math tutoring plan).</span>
+                                            <span class="step-name">Math Self-Study (Math tutoring plan).  </span>
                                         </li>
                                         <li class="step-show" data-name="create-step33" data-type="student">
                                              <span class="step">Step 3</span>
-                                            <span class="step-name">Check SAT test preparation for English and Math 1 and 2</span>
+                                            <span class="step-name">SAT Preparation for English and Math I & Math II.  </span>
                                         </li>
                                         <li class="step-show" data-name="create-step44" data-type="student">
                                              <span class="step">Step 4</span>
-                                            <span class="step-name">Check TOEFL and TOEIC Test Preparation   </span>
+                                            <span class="step-name">TOEFL and TOEIC Test Preparation.  </span>
                                         </li>
                                         
                                     </ul>
@@ -637,7 +637,7 @@ if ($segment[2] == 'mathteacher') {
                                 <div id="create-step11" class="hidden">
                                     <div style="  padding-top: 20px;">
                                         <span class="step-z">step 1</span>
-                                        <span class="step-n">Check out free online courses for English and Math. You get a Vocabulary Builder tool free! </span>
+                                        <span class="step-n">Check out the free online courses for English and Math. Get the Vocabulary Builder tool free!  </span>
                                         <span class="step-close" data-type="step-st" data-name="create-step11"><img style="height: 12px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_step_close.png"></span>
                                     </div>
                                     <div style="padding-top: 20px">
@@ -645,15 +645,15 @@ if ($segment[2] == 'mathteacher') {
                                         <ul class="list-of-step">
                                             <li>
                                                 <img style="width: 7px;" src="<?php echo get_template_directory_uri(); ?>/library/images/03_Icon_Sub-menu.png">
-                                                <span>Get free online courses with basic registration</span>
+                                                <span>Get free online courses with basic registration </span>
                                             </li>
                                             <li>
                                                 <img style="width: 7px;" src="<?php echo get_template_directory_uri(); ?>/library/images/03_Icon_Sub-menu.png">
-                                                <span>Study vocabulary with free vocabulary builder</span>
+                                                <span>Increase your vocabulary with free vocabulary builder </span>
                                             </li>
                                             <li>
                                                 <img style="width: 7px;" src="<?php echo get_template_directory_uri(); ?>/library/images/03_Icon_Sub-menu.png">
-                                                <span>When ready, subscribe to our various online courses</span>
+                                                <span>When ready, subscribe to our various online courses </span>
                                             </li>
                                             <li style="padding-top: 6px">
                                                 <span class="let-start-st">LET'S START</span>
@@ -665,7 +665,7 @@ if ($segment[2] == 'mathteacher') {
                                 <div id="create-step22" class="hidden">
                                     <div style="  padding-top: 20px;">
                                         <span class="step-z">step 2</span>
-                                        <span class="step-n">Check Math self-study (Math tutoring plan).</span>
+                                        <span class="step-n">Math Self-Study (Math tutoring plan).  </span>
                                         <span class="step-close" data-type="step-st" data-name="create-step22"><img style="height: 12px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_step_close.png"></span>
                                         
                                     </div>
@@ -674,15 +674,15 @@ if ($segment[2] == 'mathteacher') {
                                         <ul class="list-of-step">
                                             <li>
                                                 <img style="width: 7px;" src="<?php echo get_template_directory_uri(); ?>/library/images/03_Icon_Sub-menu.png">
-                                                <span>We have huge library of math subjects along with tutoring plan when you need help</span>
+                                                <span>We have a huge library of math subjects along with tutoring if needed </span>
                                             </li>
                                             <li>
                                                 <img style="width: 7px;" src="<?php echo get_template_directory_uri(); ?>/library/images/03_Icon_Sub-menu.png">
-                                                <span>Math worksheets are easy to follow and manage</span>
+                                                <span>Math self study worksheets are easy to follow and manage </span>
                                             </li>
                                             <li>
                                                 <img style="width: 7px;" src="<?php echo get_template_directory_uri(); ?>/library/images/03_Icon_Sub-menu.png">
-                                                <span>Check you progress with student progress page </span>
+                                                <span>Check your progress with student progress page  </span>
                                             </li>
                                             <li style="padding-top: 6px">
                                                 <span class="let-start-st">LET'S START</span>
@@ -694,7 +694,7 @@ if ($segment[2] == 'mathteacher') {
                                 <div id="create-step33" class="hidden">
                                     <div style="  padding-top: 20px;">
                                         <span class="step-z">step 3</span>
-                                        <span class="step-n">Check SAT test Preparation for English and Math 1 and 2.</span>
+                                        <span class="step-n">SAT Preparation for English and Math I & Math II.  </span>
                                         <span class="step-close" data-type="step-st" data-name="create-step33"><img style="height: 12px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_step_close.png"></span>
                                         
                                     </div>
@@ -703,15 +703,15 @@ if ($segment[2] == 'mathteacher') {
                                         <ul class="list-of-step">
                                             <li>
                                                 <img style="width: 7px;" src="<?php echo get_template_directory_uri(); ?>/library/images/03_Icon_Sub-menu.png">
-                                                <span>Test your knowledge with SAT Preparation tests</span>
+                                                <span>Test your readiness with SAT preparation tests  </span>
                                             </li>
                                             <li>
                                                 <img style="width: 7px;" src="<?php echo get_template_directory_uri(); ?>/library/images/03_Icon_Sub-menu.png">
-                                                <span>There are many SAT Preps. For you to study</span>
+                                                <span>There are many SAT preparation tests available </span>
                                             </li>
                                             <li>
                                                 <img style="width: 7px;" src="<?php echo get_template_directory_uri(); ?>/library/images/03_Icon_Sub-menu.png">
-                                                <span>SAT Tutorings are available as well </span>
+                                                <span>SAT tutoring is also available   </span>
                                             </li>
                                             <li style="padding-top: 6px">
                                                 <span class="let-start-st">LET'S START</span>
@@ -723,7 +723,7 @@ if ($segment[2] == 'mathteacher') {
                                 <div id="create-step44" class="hidden">
                                     <div style="  padding-top: 20px;">
                                         <span class="step-z">step 4</span>
-                                        <span class="step-n">Check TOEFL and TOEIC Test Preparation.</span>
+                                        <span class="step-n">TOEFL and TOEIC Test Preparation.  </span>
                                         <span class="step-close" data-type="step-st" data-name="create-step44"><img style="height: 12px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_step_close.png"></span>
                                         
                                     </div>
@@ -732,15 +732,15 @@ if ($segment[2] == 'mathteacher') {
                                         <ul class="list-of-step">
                                             <li>
                                                 <img style="width: 7px;" src="<?php echo get_template_directory_uri(); ?>/library/images/03_Icon_Sub-menu.png">
-                                                <span>Practice with different sections</span>
+                                                <span>Practice the various sections of TOEFL and TOEIC </span>
                                             </li>
                                             <li>
                                                 <img style="width: 7px;" src="<?php echo get_template_directory_uri(); ?>/library/images/03_Icon_Sub-menu.png">
-                                                <span>There are many simulated tests to take</span>
+                                                <span>Numerous simulated tests to take </span>
                                             </li>
                                              <li>
                                                 <img style="width: 7px;" src="<?php echo get_template_directory_uri(); ?>/library/images/03_Icon_Sub-menu.png">
-                                                <span>Audio for listening comprehension sections </span>
+                                                <span>Audio feature for the listening comprehension sections  </span>
                                             </li>
                                             
                                             <li style="padding-top: 6px">
