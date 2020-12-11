@@ -23,9 +23,11 @@ $is_user_logged_in = is_user_logged_in();
 if($is_user_logged_in){
     $link = '?r=ajax/logged/'.$current_user->ID.'/'.session_id();
     $linkss = '?r=ajax/logged/'.$current_user->ID.'/'.session_id();
+    $link_create_student = $link_create_tutor = '?r=ajax/logged/'.$current_user->ID.'/'.session_id();
 }else{
     $link = '#login';
     $linkss = '';
+    $link_create_student = $link_create_tutor = '#signup';
 }
 ?>
 <?php get_header(); ?>	
@@ -58,7 +60,7 @@ if ($segment[2] == 'mathteacher') {
 
                                
                                 <div class="row">
-                                    <div class="col-md-2 col-sm-2 col-xs-2 mt-top-14">
+                                    <div class="col-md-2 col-sm-2 col-xs-2 mt-top-14 main-section" data-name="tutor-online">
                                         <img class="intro-img" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Tutor_1section.png">
                                     </div>
                                     <div class="col-md-10 col-sm-10 col-xs-10 mt-top-24 pd-lf-5">
@@ -66,12 +68,12 @@ if ($segment[2] == 'mathteacher') {
                                             <span>Become a Tutor Online and Earn Money</span>
                                             <img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_arrow_static.png">
                                         </div>
-                                        <a>Regiter as an online teacher</a>
+                                        <a href="https://iktutor.com/ikteach/en/<?php echo $link_create_tutor;?>">Regiter as an online teacher</a>
                                     </div>                                   
 
                                 </div>
                                 <div class="row" style="height:  130px">
-                                    <div class="col-md-2 col-sm-2 col-xs-2 mt-top-34">
+                                    <div class="col-md-2 col-sm-2 col-xs-2 mt-top-34 main-section" data-name="tutor-create">
                                         <img class="intro-img" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Tutor_2section.png">
                                     </div>
                                     <div class="col-md-10 col-sm-10 col-xs-10 mt-top-24 pd-lf-5">
@@ -79,7 +81,7 @@ if ($segment[2] == 'mathteacher') {
                                             <span>Create Your Online Course and Offer for a Price</span>
                                             <img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_arrow_static.png">
                                         </div>
-                                        <a>Regiter as an online teacher</a>
+                                        <a href="https://iktutor.com/ikteach/en/<?php echo $link_create_tutor;?>">Regiter as an online teacher</a>
                                     </div>                                   
 
                                 </div>
@@ -88,7 +90,7 @@ if ($segment[2] == 'mathteacher') {
                                 <div class="list-step">
                                     <div class="intro-page">
                                         <div class="row" >
-                                            <div class="col-md-2 col-sm-2 col-xs-2 mt-top-4">
+                                            <div class="col-md-2 col-sm-2 col-xs-2 mt-top-4 main-section" data-name="close">
                                                 <img class="intro-img" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Tutor_1section.png">
                                             </div>
                                             <div class="col-md-10 col-sm-10 col-xs-10 mt-top-24">
@@ -96,7 +98,7 @@ if ($segment[2] == 'mathteacher') {
                                                     <span>Become a Tutor Online and Earn Money</span>
                                                     <img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_arrow_opened.png">
                                                 </div>
-                                                <a>Regiter as an online teacher</a>
+                                                <a href="https://iktutor.com/ikteach/en/<?php echo $link_create_tutor;?>">Regiter as an online teacher</a>
                                             </div>                                   
 
                                         </div>
@@ -266,7 +268,7 @@ if ($segment[2] == 'mathteacher') {
                                 <div class="list-step">
                                     <div class="intro-page">
                                         <div class="row" >
-                                            <div class="col-md-2 col-sm-2 col-xs-2 mt-top-34">
+                                            <div class="col-md-2 col-sm-2 col-xs-2 mt-top-34 main-section" data-name="close">
                                                 <img class="intro-img" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Tutor_2section.png">
                                             </div>
                                             <div class="col-md-10 col-sm-10 col-xs-10 mt-top-24">
@@ -274,7 +276,7 @@ if ($segment[2] == 'mathteacher') {
                                                     <span>Create Your Online Course and Offer for a Price</span>
                                                     <img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_arrow_opened.png">
                                                 </div>
-                                                <a>Regiter as an online teacher</a>
+                                                <a href="https://iktutor.com/ikteach/en/<?php echo $link_create_tutor;?>">Regiter as an online teacher</a>
                                             </div>                                   
 
                                         </div>
@@ -421,7 +423,7 @@ if ($segment[2] == 'mathteacher') {
                             <div id="student-page" class="intro-page">
                                 <div class="title-intro">Register Now and Start Your Online Learning!</div>
                                 <div class="row">
-                                    <div class="col-md-2 col-sm-2 col-xs-2 mt-top-24">
+                                    <div class="col-md-2 col-sm-2 col-xs-2 mt-top-24 main-section" data-name="student-online">
                                         <img class="intro-img" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Student_1section.png">
                                     </div>
                                     <div class="col-md-10 col-sm-10 col-xs-10 mt-top-24 pd-lf-5">
@@ -429,12 +431,12 @@ if ($segment[2] == 'mathteacher') {
                                             <span>How to Get an Online Tutor</span>
                                             <img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_arrow2_static.png">
                                         </div>
-                                        <a>Register first to get online tutor for English, Math and English Conversation</a>
+                                        <a href="https://iktutor.com/iklearn/en/<?php echo $link_create_student;?>">Register first to get online tutor for English, Math and English Conversation</a>
                                     </div>                                   
 
                                 </div>
                                 <div class="row" style="height:  130px">
-                                    <div class="col-md-2 col-sm-2 col-xs-2 mt-top-24">
+                                    <div class="col-md-2 col-sm-2 col-xs-2 mt-top-24 main-section" data-name="student-create">
                                         <img class="intro-img" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Student_2section.png">
                                     </div>
                                     <div class="col-md-10 col-sm-10 col-xs-10 mt-top-24 pd-lf-5">
@@ -442,7 +444,7 @@ if ($segment[2] == 'mathteacher') {
                                             <span>Student Online by Yourself</span>
                                             <img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_arrow2_static.png">
                                         </div>
-                                        <a>Regiter as a student</a>
+                                        <a href="https://iktutor.com/iklearn/en/<?php echo $link_create_student;?>">Regiter as a student</a>
                                     </div>
                                 </div>
                             </div>
@@ -450,7 +452,7 @@ if ($segment[2] == 'mathteacher') {
                                 <div class="list-step-st">
                                     <div class="intro-page">
                                         <div class="row" >
-                                            <div class="col-md-2 col-sm-2 col-xs-2 mt-top-24">
+                                            <div class="col-md-2 col-sm-2 col-xs-2 mt-top-24 main-section" data-name="close-st">
                                                 <img class="intro-img" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Student_1section.png">
                                             </div>
                                             <div class="col-md-10 col-sm-10 col-xs-10 mt-top-24">
@@ -458,7 +460,7 @@ if ($segment[2] == 'mathteacher') {
                                                     <span>How to Get an Online Tutor</span>
                                                     <img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_arrow2_opened.png">
                                                 </div>
-                                                <a>Register first to get online tutor for English, Math and English Conversation</a>
+                                                <a href="https://iktutor.com/iklearn/en/<?php echo $link_create_student;?>">Register first to get online tutor for English, Math and English Conversation</a>
                                             </div>                                   
 
                                         </div>
@@ -601,7 +603,7 @@ if ($segment[2] == 'mathteacher') {
                                 <div class="list-step-st">
                                     <div class="intro-page">
                                         <div class="row" >
-                                            <div class="col-md-2 col-sm-2 col-xs-2 mt-top-24">
+                                            <div class="col-md-2 col-sm-2 col-xs-2 mt-top-24 main-section" data-name="close-st">
                                                 <img class="intro-img" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Student_2section.png">
                                             </div>
                                             <div class="col-md-10 col-sm-10 col-xs-10 mt-top-24">
@@ -609,7 +611,7 @@ if ($segment[2] == 'mathteacher') {
                                                     <span>Study Online by Yourself </span>
                                                     <img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_arrow2_opened.png">
                                                 </div>
-                                                <a>Regiter as a studen</a>
+                                                <a href="https://iktutor.com/iklearn/en/<?php echo $link_create_student;?>">Regiter as a studen</a>
                                             </div>                                   
 
                                         </div>
@@ -1150,7 +1152,7 @@ if ($segment[2] == 'mathteacher') {
             $('#ikteach').click(function(){
                 var link = '<?php echo $linkss; ?>';
                 if (link !='') {
-                    window.location='https://iktutor.com/ikteach/en'+link;
+                    window.location='https://iktutor.com/ikteach/en/'+link;
             }else{
                 window.location='https://iktutor.com/ikteach/en/';      
             }
@@ -1158,7 +1160,7 @@ if ($segment[2] == 'mathteacher') {
             $('#iklearn').click(function(){
                 var link = '<?php echo $link; ?>';
                 if (link !='') {
-                    window.location='https://iktutor.com/iklearn/en'+link;
+                    window.location='https://iktutor.com/iklearn/en/'+link;
             }else{
                 window.location='https://iktutor.com/iklearn/en/';      
             }

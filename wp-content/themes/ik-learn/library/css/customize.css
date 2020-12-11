@@ -1562,7 +1562,8 @@ padding-bottom: 5px;
     text-decoration-line: underline; 
 }
 .intro-img {
-    width: 60px;
+    max-width: 60px !important;
+    max-height: 100px !important;
 }
 .intro-page .row {
     margin: 0 15px;
